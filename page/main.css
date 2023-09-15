@@ -1,6 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{ 
+    margin: 30px;
+    list-style: none;
+}
+li a{
+    padding: 10px;
+
+    background-color: aqua;
+}
+li a:hover{
+    background-color:blue ;
+}
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+    /*background-color: #b0d3f3;*/
+    background: url("/home/convidado/Downloads/my_personal_page-main/page/resume-website-example-1.png") center center no-repeat ;
+    background-size: 100vw 100vh;
+
+    display: inline-flex;
+    justify-content: center;
+}
+nav{    background: rgba(211, 211, 211, 0.473) ;}
+section{
+    border: solid;
+    width: 30vw;
+    height: 70vh;
+    background: rgba(211, 211, 211, 0.473) ;
+
+}
+
+
+
 .My-pic{
-    border:5px solid rgb(131, 177, 197);
+    border:5px solid;
+    border-color: #b0d3f3;
     border-radius: 50%;
+
+
     /*padding: 5px;*/
     /*width: 32%;*/
 }
