@@ -20,7 +20,7 @@ main{
     width: 100vw;
     height: 100vh;
     /*background-color: #b0d3f3;*/
-    background: url("/home/convidado/Downloads/my_personal_page-main/page/resume-website-example-1.png") center center no-repeat ;
+    background: url("/my_personal_page/page/resume-website-example-1.png") center center no-repeat ;
     background-size: 100vw 100vh;
 
     display: inline-flex;
@@ -37,7 +37,7 @@ section{
 
 
 
-.My-pic{
+.my-pic{
     border:5px solid;
     border-color: #b0d3f3;
     border-radius: 50%;
