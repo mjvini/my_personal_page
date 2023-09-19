@@ -26,23 +26,50 @@ main{
     display: inline-flex;
     justify-content: center;
 }
-nav{    background: rgba(211, 211, 211, 0.473) ;}
+nav{
+    background: rgba(211, 211, 211, 0.473) ;
+    margin-top: 3%;
+}
 section{
-    border: solid;
+    border:solid;
     width: 30vw;
     height: 70vh;
     background: rgba(211, 211, 211, 0.473) ;
+    margin-top: 3%;
 
 }
 
 
 
 .my-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
     border:5px solid;
     border-color: #b0d3f3;
     border-radius: 50%;
 
 
-    /*padding: 5px;*/
-    /*width: 32%;*/
+    /*padding: 5px;
+    width: 32%;*/
+}
+.my-name{
+    text-align: center;
+}
+.resume{
+    /*text-align: left;*/
+    
+    
+}
+.coder{
+    text-align: center;
+    color: gray;
+}
+.section2-line{
+    /*height: 0px;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
